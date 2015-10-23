@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "web",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,5 +9,22 @@
     "express": "3.4.7",
     "jade": "*",
     "stylus": "*"
+  },
+  "description": "ejemplo basico de nodejs",
+  "main": "app.js",
+  "devDependencies": {
+    "docco": "^0.7.0",
+    "grunt": "~0.4.5",
+    "grunt-docco": "^0.4.0",
+    "grunt-npm-install": "~0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiexfiliana7/app_nodejs.git"
+  },
+  "author": "Javier Ruiz César",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/javiexfiliana7/app_nodejs/issues"
   }
 }

@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'init' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 silly package data undefined
+5 info init written successfully
+6 error Error: Invalid name: "web en nodejs"
+6 error     at ensureValidName (/usr/lib/nodejs/normalize-package-data/lib/fixer.js:284:15)
+6 error     at Object.module.exports.fixNameField (/usr/lib/nodejs/normalize-package-data/lib/fixer.js:199:5)
+6 error     at /usr/lib/nodejs/normalize-package-data/lib/normalize.js:29:38
+6 error     at Array.forEach (native)
+6 error     at normalize (/usr/lib/nodejs/normalize-package-data/lib/normalize.js:28:15)
+6 error     at final (/usr/lib/nodejs/read-package-json/read-json.js:310:33)
+6 error     at then (/usr/lib/nodejs/read-package-json/read-json.js:124:33)
+6 error     at gypfile_ (/usr/lib/nodejs/read-package-json/read-json.js:140:43)
+6 error     at /usr/lib/nodejs/read-package-json/read-json.js:135:33
+6 error     at Glob.<anonymous> (/usr/lib/nodejs/glob.js:90:7)
+7 error If you need help, you may report this log at:
+7 error     <http://github.com/isaacs/npm/issues>
+7 error or email it to:
+7 error     <npm-@googlegroups.com>
+8 error System Linux 3.19.0-31-generic
+9 error command "/usr/bin/nodejs" "/usr/bin/npm" "init"
+10 error cwd /home/javi/Escritorio/app_nodejs
+11 error node -v v0.10.25
+12 error npm -v 1.3.10
+13 verbose exit [ 1, true ]
